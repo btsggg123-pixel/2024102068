@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ART SHOP — BODA</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .shop-card h4, .shop-card .price{ color:#0a0a0a; }
+  .shop-card .brand{ color:#9a968c; }
+</style>
+</head>
+<body>
+
+<header class="site-header is-light" style="--accent:var(--orange)">
+  <a href="index.html" class="logo"><span class="dot" style="background:var(--orange)"></span>BODA</a>
+  <nav class="nav">
+    <a href="about.html">ABOUT</a>
+    <a href="exhibitions.html">EXHIBTIONS</a>
+    <a href="works.html">WORKS</a>
+    <a href="artshop.html" class="active">ART SHOP</a>
+    <a href="contact.html">CONTACT</a>
+  </nav>
+  <div class="nav-tools">
+    <button aria-label="검색">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    </button>
+    <button class="lang" aria-label="언어 선택">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20z"/></svg>
+      KR
+    </button>
+    <button class="menu-toggle" aria-label="메뉴"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="section tight" style="background:var(--bg-cream); color:#0a0a0a;">
+  <div class="container">
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:20px; margin-bottom:46px;">
+      <span class="tag-chip" style="--accent:var(--orange)">ART SHOP</span>
+      <a class="home-link" href="index.html" style="color:#6b6a66;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>
+        HOME
+      </a>
+    </div>
+
+    <div class="shop-filters" style="--accent:var(--orange)">
+      <button class="filter-pill active" data-filter="all">전체</button>
+      <button class="filter-pill" data-filter="아트북">아트북</button>
+      <button class="filter-pill" data-filter="키링">키링</button>
+      <button class="filter-pill" data-filter="기타">기타</button>
+    </div>
+
+    <div class="shop-grid">
+      <a class="shop-card" href="#" data-cat="키링" style="color:inherit">
+        <div class="shop-art" style="background:#0a0a0a; border-color:#0a0a0a;">
+          <div class="obj-keyring">
+            <span class="ring a"></span><span class="ring b"></span>
+            <span class="charm tri"></span><span class="charm disc"></span>
+          </div>
+        </div>
+        <h4>NEON SIGNAL 키링</h4>
+        <span class="brand">BODA X MIN J. KIM</span>
+        <span class="price">₩15,000</span>
+      </a>
+      <a class="shop-card" href="#" data-cat="키링" style="color:inherit">
+        <div class="shop-art" style="background:#0a0a0a; border-color:#0a0a0a;">
+          <div class="obj-cluster"><span></span><span></span><span></span><span></span></div>
+        </div>
+        <h4>STELLAR BAMBI 키링</h4>
+        <span class="brand">BODA X MIN J. KIM</span>
+        <span class="price">₩24,000</span>
+      </a>
+      <a class="shop-card" href="#" data-cat="기타" style="color:inherit">
+        <div class="shop-art" style="background:#0a0a0a; border-color:#0a0a0a;">
+          <div class="obj-cassette">
+            <div class="shell"></div><div class="label"></div>
+            <div class="hole l"></div><div class="hole r"></div>
+          </div>
+        </div>
+        <h4>NOISE ARCHIVE 카세트</h4>
+        <span class="brand">BODA X JUNKPRESS</span>
+        <span class="price">₩20,000</span>
+      </a>
+      <a class="shop-card" href="#" data-cat="기타" style="color:inherit">
+        <div class="shop-art" style="background:#0a0a0a; border-color:#0a0a0a;">
+          <div class="obj-tape"><div class="body"></div><div class="reel l"></div><div class="reel r"></div></div>
+        </div>
+        <h4>VOID 마스킹 테이프</h4>
+        <span class="brand">BODA X HWANG.DS</span>
+        <span class="price">₩7,000</span>
+      </a>
+
+      <a class="shop-card" href="#" data-cat="아트북" style="color:inherit">
+        <div class="shop-art" style="background:#0a0a0a; border-color:#0a0a0a;">
+          <div class="obj-book"><div class="pages"></div><div class="cover"></div></div>
+        </div>
+        <h4>DISORDERED 아트북</h4>
+        <span class="brand">BODA X HWANG.DS</span>
+        <span class="price">₩23,000</span>
+      </a>
+      <a class="shop-card" href="#" data-cat="아트북" style="color:inherit">
+        <div class="shop-art" style="background:#0a0a0a; border-color:#0a0a0a;">
+          <div class="obj-book"><div class="pages"></div><div class="cover" style="background:linear-gradient(135deg,#1a1a1a,#000); transform:rotate(3deg);"></div></div>
+        </div>
+        <h4>FORMLESS 아트북</h4>
+        <span class="brand">BODA X KANG.DS</span>
+        <span class="price">₩30,000</span>
+      </a>
+      <a class="shop-card" href="#" data-cat="기타" style="color:inherit">
+        <div class="shop-art" style="background:#0a0a0a; border-color:#0a0a0a;">
+          <div class="obj-pouch"><div class="bag"></div><div class="tag"></div></div>
+        </div>
+        <h4>COLD MESSAGE KIT</h4>
+        <span class="brand">BODA X JISOO PARK</span>
+        <span class="price">₩50,000</span>
+      </a>
+      <a class="shop-card" href="#" data-cat="기타" style="color:inherit">
+        <div class="shop-art" style="background:#0a0a0a; border-color:#0a0a0a;">
+          <div class="obj-plate"></div>
+        </div>
+        <h4>ECHO METAL 틴케이스</h4>
+        <span class="brand">BODA X RUEJ</span>
+        <span class="price">₩12,000</span>
+      </a>
+    </div>
+
+    <div class="shop-more">
+      <button class="btn btn-outline on-light">더보기</button>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer" style="background:#0a0a0a;">
+  <div class="container footer-inner">
+    <div class="footer-links">
+      <a href="contact.html">문의하기</a>
+      <a href="#">고객 서비스</a>
+      <a href="#">스토어 찾기</a>
+      <a href="#">법적 고지</a>
+      <a href="#">개인정보 처리방침</a>
+      <a href="#">구독하기</a>
+      <a href="#">소셀</a>
+      <span class="footer-country">국가: South Korea</span>
+    </div>
+    <div>© 2025 BODA</div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

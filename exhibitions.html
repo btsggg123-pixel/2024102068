@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EXHIBITIONS — BODA</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header" style="--accent:var(--green)">
+  <a href="index.html" class="logo"><span class="dot"></span>BODA</a>
+  <nav class="nav">
+    <a href="about.html">ABOUT</a>
+    <a href="exhibitions.html" class="active">EXHIBTIONS</a>
+    <a href="works.html">WORKS</a>
+    <a href="artshop.html">ART SHOP</a>
+    <a href="contact.html">CONTACT</a>
+  </nav>
+  <div class="nav-tools">
+    <button aria-label="검색">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    </button>
+    <button class="lang" aria-label="언어 선택">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20z"/></svg>
+      KR
+    </button>
+    <button class="menu-toggle" aria-label="메뉴"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="section tight">
+  <div class="container">
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:20px; margin-bottom:36px;">
+      <span class="tag-chip" style="--accent:var(--green)">EXHIBTIONS</span>
+      <a class="home-link" href="index.html">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>
+        HOME
+      </a>
+    </div>
+
+    <div class="exh-hero-art">
+      <canvas data-scene="cloud"></canvas>
+      <div class="veil"></div>
+    </div>
+
+    <div class="current-exh" style="--accent:var(--green)">
+      <div class="meta">
+        <span class="eyebrow">현재 전시</span>
+        <h2>경계의 빛</h2>
+        <p>
+          빛과 어둠, 현실과 상상, 생명과 비생명 사이.<br>
+          이 전시는 우리가 감각적으로 인지하는 경계의 찰나를 시각화합니다.<br>
+          형태와 빛이 교차하는 순간, 존재는 선명해지고, 경계는 흐려집니다.
+        </p>
+      </div>
+      <div style="display:flex; align-items:flex-end;">
+        <a href="ticket.html" class="btn btn-outline">티켓 구매</a>
+      </div>
+    </div>
+
+    <div class="section-head" style="--accent:var(--green)">
+      <span class="section-rule"></span>
+      <h2 class="section-title" style="font-size:clamp(22px,3vw,32px);">과거 전시</h2>
+    </div>
+
+    <div class="past-grid">
+      <div class="past-card">
+        <div class="past-art"><canvas data-scene="ripple"></canvas></div>
+        <h3>빛 아래, 물의 시간</h3>
+        <p>멈춰 있는 듯 흐르는 물의 궤적 위로, 빛이 시간을 조명합니다. 이 전시는 시간의 흔적이 공간 속에 스며드는 순간을 포착합니다.</p>
+      </div>
+      <div class="past-card">
+        <div class="past-art"><canvas data-scene="cloud"></canvas></div>
+        <h3>의식의 표면</h3>
+        <p>기억의 파편이 의식의 층위를 따라 유영하며, 보이지 않던 내면의 단면이 표면 위로 드러나는 장면을 구성합니다.</p>
+      </div>
+      <div class="past-card">
+        <div class="past-art"><canvas data-scene="tree"></canvas></div>
+        <h3>시간의 나무</h3>
+        <p>사라진 기억의 뿌리에서 다시 피어난 생명의 잔상. 시간의 재생성과 순환에 대한 상징적 서사를 공간 속에 구현합니다.</p>
+      </div>
+      <div class="past-card">
+        <div class="past-art"><canvas data-scene="dots"></canvas></div>
+        <h3>호흡하는 바다</h3>
+        <p>형태 없이 움직이는 빛의 리듬이 깊은 바다의 감정을 환기시킵니다. 고요하고도 유동적인 생명의 흐름을 따라갑니다.</p>
+      </div>
+      <div class="past-card">
+        <div class="past-art"><canvas data-scene="tree"></canvas></div>
+        <h3>몽운 / 夢雲</h3>
+        <p>현실과 환상의 경계에서 피어오르는 감정의 형상들. 이 전시는 꿈결 같은 정서의 흐름을 조각처럼 드러냅니다.</p>
+      </div>
+      <div class="past-card">
+        <div class="past-art"><canvas data-scene="rain"></canvas></div>
+        <h3>물의 무게</h3>
+        <p>보이지 않는 감정이 파도처럼 쏟아져 내립니다. 이 전시는 감정의 밀도와 무게감을 시각적으로 체험하게 합니다.</p>
+      </div>
+      <div class="past-card">
+        <div class="past-art"><canvas data-scene="wave"></canvas></div>
+        <h3>무형의 파형</h3>
+        <p>형태 없는 소리의 파동이 공간을 뒤흔듭니다. 이 전시는 규정할 수 없는 존재의 흔적과 잔향을 탐색합니다.</p>
+      </div>
+      <div class="past-card">
+        <div class="past-art"><canvas data-scene="cloud"></canvas></div>
+        <h3>흰 파도의 방</h3>
+        <p>물결 대신 감정의 파장이 공간을 채웁니다. 감각의 파동이 파도를 대신하여 밀려오는 경험을 선사합니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-links">
+      <a href="contact.html">문의하기</a>
+      <a href="#">고객 서비스</a>
+      <a href="#">스토어 찾기</a>
+      <a href="#">법적 고지</a>
+      <a href="#">개인정보 처리방침</a>
+      <a href="#">구독하기</a>
+      <a href="#">소셀</a>
+      <span class="footer-country">국가: South Korea</span>
+    </div>
+    <div>© 2025 BODA</div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
